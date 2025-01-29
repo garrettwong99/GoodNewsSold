@@ -9,13 +9,13 @@
 </head>
 <body>
     <h1>Welcome to Good News</h1>
-    <ul>
-        {% for source in sources %}
-            <li>
-                <strong>{{ source.name }}</strong> - 
-                <a href="{{ source.rss_url }}" target="_blank">Visit Feed</a>
-            </li>
+    <h2>Articles</h2>
+    <div class="articles">
+        {% for article in articles %}
+            <div class="article">
+                <h3><a href="{{ article.link }}" target="_blank">{{ article.title }}</a></h3>
+            </div>
         {% endfor %}
-    </ul>
+    </div>
 </body>
 </html>
