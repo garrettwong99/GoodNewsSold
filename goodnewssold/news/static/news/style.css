@@ -22,3 +22,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.navbar {
+    height: 150px;
+}
+.navbar .text-center div {
+    font-size: 2rem;
+}
+.navbar .navbar-brand {
+    font-size: 2.5rem;
+}
