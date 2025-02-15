@@ -16,18 +16,26 @@ li {
     margin-bottom: 10px;
 }
 a {
-    color: #1a73e8;
+    color: #656464;
     text-decoration: none;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
 }
 a:hover {
-    text-decoration: underline;
+    color: #333;
 }
-.navbar {
-    height: 150px;
+
+.articles {
+    max-width: 800px; /* Maximum width of the articles container */
+    margin: 0 auto; /* Center the articles container */
+    padding: 20px; /* Optional: Add padding around the container */
 }
-.navbar .text-center div {
-    font-size: 2rem;
-}
-.navbar .navbar-brand {
-    font-size: 2.5rem;
+
+.article {
+    border: 1px solid #ccc; /* Border color and width */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the box */
+    margin: 10px 0; /* Margin outside the box */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }

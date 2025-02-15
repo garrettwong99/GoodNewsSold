@@ -118,7 +118,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # Assuming Django 3.2+ with pathlib
+    BASE_DIR / "news/static",  # Assuming Django 3.2+ with pathlib
 ]
 
 # Default primary key field type
